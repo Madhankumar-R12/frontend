@@ -1,0 +1,60 @@
+.auth-container {
+  max-width: 350px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  text-align: center;
+  color: #fff;
+}
+
+.login-bg {
+  background: linear-gradient(135deg, #42a5f5 0%, #7e57c2 100%);
+}
+
+.signup-bg {
+  background: linear-gradient(135deg, #ff7043 0%, #fbc02d 100%);
+}
+
+.auth-form input {
+  width: 90%;
+  padding: 0.7rem;
+  margin: 0.7rem 0;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.auth-form button {
+  width: 95%;
+  padding: 0.7rem;
+  background: #fff;
+  color: #333;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background 0.2s;
+}
+
+.auth-form button:hover {
+  background: #e0e0e0;
+}
+
+.auth-msg {
+  margin-top: 1rem;
+  color: #ffd600;
+  font-weight: bold;
+}
+.auth-switch {
+  margin-top: 1.5rem;
+  color: #fff;
+  font-size: 1rem;
+}
+.auth-switch a {
+  color: #ffd600;
+  font-weight: bold;
+  text-decoration: underline;
+}
